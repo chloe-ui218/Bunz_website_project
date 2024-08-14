@@ -13,3 +13,18 @@
 .button-3{
     background-color: white;
 }
+.menu-header p{
+    color: #2C2F24;
+    font-family: playfair display;
+    font-weight: 500px;
+    size: 55px;
+    line-height: 60.5px;
+    padding-left: 199px;
+}
+.bg-gray{
+   justify-content: center;
+   padding-left: 33%;
+   width: 110%;
+   padding-right: 22%;
+   gap: 26%;
+}
