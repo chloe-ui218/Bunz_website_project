@@ -2,11 +2,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
     <title>Bunz Official</title>
 </head>
 <body>
-   <header></header>
-   <main></main>
-   <footer></footer>
+    <header>
+         <div class="flex lg:flex-row flex-col items-center bg-black text-white gap-3">
+            <div class="flex lg:w-6/12 lg:pl-5 lg:flex-row flex-col gap-3">
+              <div class="flex justify-center items-center gap-2">
+                <i class="fa-solid fa-mobile"></i>
+                <p>(414) 857 - 0107</p>
+              </div>
+              <div class="flex justify-center items-center gap-2">
+                <i class="fa-regular fa-envelope"></i>
+                <p>yummy@bistrobliss</p>
+              </div>
+            </div>
+
+            <div class="flex lg:w-5/12 lg:flex-row flex-col justify-end items-center">
+                <div class="flex justify-center items-center gap-2">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                    <a href=""></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex lg:flex-row flex-col  items-center gap-2 pb-2">
+            <div class="flex w-3/12 justify-center items-center">
+                <a href="">
+                    <img class="h-24" src="./images/bunz-logo.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="flex lg:w-7/12 justify-center items-center">
+                <ul class="flex gap-4 justify-center items-center">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Menu</a></li>
+                    <li><a href="">Pages</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="flex lg:w-2/12 justify-center items-center">
+                <a class="" href="">
+                    <button class="border-2 border-gray-300 p-1 rounded-full">Book A Table</button>
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="section-1 flex w-full bg-cover background-1  flex-col justify-center items-center">
+            <p class="flex justify-center font-bold items-center text-red-700 text-lg lg:text-5xl lg:pb-8">
+                If you have fitness goals/dreams in mind,
+            </p>
+            <p class="flex justify-center font-bold items-center text-red-700 text-lg lg:text-5xl">
+                    there is no better place to start than @bunz.rw
+            </p>
+
+            <p class="font-semibold flex justify-center items-center lg:text-2xl text-sm lg:pt-4 gold">Discover delectable cuisine and unforgettable 
+                <br> moments in our welcoming, culinary haven.
+            </p>
+
+            <div class="flex justify-center items-center flex-row py-5">
+                <a class="pr-6" href="">
+                    <button class="button-2 p-2 rounded-full">Book A Table</button>
+                </a>
+                <a class="" href="">
+                    <button class="button-3 p-2 rounded-full">Explore Menu</button>
+                </a>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
 </body>
 </html>

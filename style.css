@@ -1,0 +1,15 @@
+.background-1{
+    background-image: url(./images/main-pic-sec-1.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.gold{
+    color: #f4d03f;
+}
+.button-2{
+    background-color: rgb(222, 17, 17);
+}
+.button-3{
+    background-color: white;
+}
