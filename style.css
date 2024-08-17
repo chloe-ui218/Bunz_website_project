@@ -28,3 +28,10 @@
    padding-right: 22%;
    gap: 26%;
 }
+
+.paragraph{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f4d03f;
+}
